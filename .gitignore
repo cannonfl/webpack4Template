@@ -60,6 +60,6 @@ typings/
 # webpack
 build/
 dist/
-public/
+public/bundle.js
 
 

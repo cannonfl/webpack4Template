@@ -2,7 +2,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const App = () => {
+const Container = () => {
   return (
     <div>
       <p>React Here</p>
@@ -10,4 +10,4 @@ const App = () => {
   )
 };
 
-export default App;
+export default Container;

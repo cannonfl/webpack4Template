@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prod": "npm-run-all --sequential prod:build prod:start",
-    "prod:build": "webpack --config webpack.server.config --mode production",
+    "prod": "npm-run-all --sequential prod:client:build prod:server:build prod:start",
+    "prod:client:build": "webpack --config webpack.client.config --mode production",
+    "prod:server:build": "webpack --config webpack.server.config --mode production",
     "prod:start": "node ./build/bundle.js",
-    "dev": "webpack-dev-server --config webpack.client.config --mode development --open"
+    "dev": "webpack-dev-server --config webpack.dev.config --mode development --open"
   },
   "keywords": [],
   "author": "",

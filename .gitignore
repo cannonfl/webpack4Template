@@ -58,6 +58,8 @@ typings/
 .env
 
 # webpack
+build/
 dist/
 public/
+
 
